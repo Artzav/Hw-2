@@ -3,12 +3,16 @@ package com.homework;
 public class AverageOfNum {
     public static void main(String[] args) {
         int[] array = {5, 0, -3, 10};
-        double numbers = 0;
-        double average;
+
+        double sumOfNumbers = 0;
+        double averageAmount;
+
         for (int i = 0; i < array.length; i++) {
-            numbers += array[i];
+            sumOfNumbers += array[i];
         }
-        average = numbers / array.length;
-        System.out.println(average);
+        
+        averageAmount = sumOfNumbers / array.length;
+
+        System.out.println(averageAmount);
     }
 }
